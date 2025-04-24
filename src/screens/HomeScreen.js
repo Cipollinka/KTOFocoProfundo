@@ -1,4 +1,4 @@
-import {Image, Text, TouchableOpacity, Vibration, View} from 'react-native';
+import {Text, TouchableOpacity, Vibration, View} from 'react-native';
 import React, { useState, useEffect } from 'react';
 import {useDispatch, useSelector} from 'react-redux'; // Импортируем useDispatch для работы с Redux
 import TopSvg from '../assets/svg/TopSvg';
@@ -102,10 +102,9 @@ const HomeScreen = ({ navigation }) => {
     };
 
     return (
-        <View style={{flex: 1}}>
-            <Image style={{flex: 1, width: '100%', height: '100%', position: 'absolute'}} source={require('../AppManager/bg.png')} />
         <View
             style={{
+                backgroundColor: '#000',
                 flex: 1,
                 paddingHorizontal: 16,
                 borderTopColor: '#FF3238',
@@ -260,7 +259,6 @@ const HomeScreen = ({ navigation }) => {
                     {isRunning ? 'END' : 'START'}
                 </Text>
             </TouchableOpacity>
-        </View>
         </View>
     );
 }
