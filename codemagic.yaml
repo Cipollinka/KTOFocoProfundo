@@ -7,8 +7,8 @@ workflows:
       groups:
         - creds
       vars:
-        XCODE_WORKSPACE: "KtoFoco.xcworkspace" # <----
-        XCODE_SCHEME: "KtoFoco" # <----
+        XCODE_WORKSPACE: "kto.xcworkspace" # <----
+        XCODE_SCHEME: "kto" # <----
         BUNDLE_ID: "org.main.kto" # <----
         APP_STORE_APP_ID: 6743850860 # <----
         APP_STORE_CONNECT_KEY_ID: "X84M4PFT62" # <----
