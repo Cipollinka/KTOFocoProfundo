@@ -27,7 +27,7 @@ workflows:
           source: true
     scripts:
       - name: Install npm dependencies
-        script: yarn install
+        script: npm install --force
       - name: Install CocoaPods dependencies
         script: cd ios && pod install --repo-update
       - name: Set up keychain for code signing
