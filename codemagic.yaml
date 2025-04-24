@@ -10,7 +10,7 @@ workflows:
         XCODE_WORKSPACE: "KtoFoco.xcworkspace" # <----
         XCODE_SCHEME: "KtoFoco" # <----
         BUNDLE_ID: "org.main.kto" # <----
-        APP_STORE_APP_ID: 6743850860 # <----
+        APP_STORE_APP_ID: id6743850860 # <----
         APP_STORE_CONNECT_KEY_ID: "X84M4PFT62" # <----
         APP_STORE_CONNECT_ISSUER_ID: "6511ff0c-1b18-41bb-8cdb-e13a9a3c1ca5" # <----
         node: latest
