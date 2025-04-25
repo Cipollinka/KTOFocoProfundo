@@ -54,8 +54,6 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>${PRODUCT_NAME} requires access to the camera to capture photos for user profiles and in-app activities.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>${PRODUCT_NAME} requires microphone access to record audio for in-app video features.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
